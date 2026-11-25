@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: customer-complaints-nlp
+    runtime: docker
+    plan: free          # switch to "starter" ($7/mo) to avoid sleeping
+    healthCheckPath: /
+    envVars:
+      - key: PORTFOLIO_URL
+        value: https://YOUR-SITE-URL   # TODO: set to your portfolio site

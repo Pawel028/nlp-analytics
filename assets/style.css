@@ -1,0 +1,9 @@
+body { background: #f4f6fa; }
+.nav-sub { display: block; color: #9fb3d1; font-size: 0.8rem; }
+.kpi-tile { background: #fff; border-left: 4px solid #2c82ff; padding: 0.8rem 1rem; border-radius: 4px; height: 100%; }
+.kpi-label { font-size: 0.72rem; color: #667; text-transform: uppercase; letter-spacing: .05em; }
+.kpi-value { font-size: 1.35rem; font-weight: 600; line-height: 1.3; }
+.kpi-sub { font-size: 0.75rem; color: #889; min-height: 1em; }
+.card-header small { display: block; }
+#footer { padding: 1.2rem 2rem; font-size: 0.8rem; color: #667; background: #fff; border-top: 1px solid #dde3ee; }
+#footer a { color: #2c82ff; }
